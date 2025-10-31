@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.home-img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.ranking-section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 800px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.ranking-section h3 {
+  font-size: 1.4em;
+  color: #2c2c2c;
+  margin-bottom: 10px;
+}
+
+.ranking-section ol {
+  padding-left: 20px;
+  font-size: 1em;
+}
